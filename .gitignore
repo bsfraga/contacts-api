@@ -1,0 +1,33 @@
+# Python-specific files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyi
+*.pyc/
+*.pyo/
+*.pyd/
+*.pyi/
+*.egg-info/
+dist/
+build/
+*.egg
+*.egg-info
+pip-wheel-metadata/
+*.dist-info/
+*.pyz
+venv/
+# Flask-specific files
+*.env
+instance/
+.vscode/
+.idea/
+*.log
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Other project-specific files
+*.db
+*.sqlite
